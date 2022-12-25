@@ -127,3 +127,99 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+/*//////////////////////////// MY CSS START HERE ///////////////////////////// */
+
+body {
+    height: 1014px;
+    width: 80%;
+    margin: 0 auto;
+    /* background-image: linear-gradient(#cf28cf ,#004e92  ); */
+    background-image: linear-gradient(#ddd6f3, #faaca8);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    color: rgb(121, 9, 155);
+    font-size: 110px;
+    line-height: 150px;
+    border-bottom: 5px solid black;
+    border-radius: 100%;
+    padding: 10px;
+    font-family: "Kaushan Script", cursive;
+}
+.main {
+    /* background-color:green; */
+    display: flex;
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    justify-content: space-around;
+    line-height: 104px;
+    margin-top: 30px;
+}
+.par {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.par div {
+    height: 250px;
+    width: 450px;
+}
+#rock {
+    background-image: url(9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-bottom: 5px solid black;
+    border-radius: 100%;
+}
+#paper {
+    background-image: url(5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-bottom: 5px solid black;
+    border-radius: 100%;
+}
+#scissors {
+    background-image: url(2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-bottom: 5px solid black;
+    border-radius: 100%;
+}
+a:hover {
+    background-color: rgb(224, 161, 233);
+}
+#sc1,
+#sc2 {
+    display: block;
+    font-size: 42px;
+    text-align: center;
+}
+#p1 {
+    font-family: "Satisfy", cursive;
+    font-size: 64px;
+    color: rgb(4, 64, 68);
+    border-bottom: 5px solid black;
+    border-radius: 100%;
+}
+#p2 {
+    font-family: "Satisfy", cursive;
+    font-size: 64px;
+
+    color: rgb(4, 64, 68);
+    border-bottom: 5px solid black;
+    border-radius: 100%;
+}
+#fin {
+    font-family: "Gloria Hallelujah", cursive;
+    color: blue;
+    font-size: 75px;
+}
